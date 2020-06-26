@@ -21,6 +21,7 @@ export class UserAge {
   }
 
   earthYearsRemain()  {
-    
+    let yearsRemain = (this.lifeExpectancy - this.age);
+    return yearsRemain;
   }
 }
