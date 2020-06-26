@@ -37,7 +37,7 @@ export class UserAge {
 
     if (this.mercuryAge < lifeExpect)  {
       let yearsRemain = (lifeExpect - this.mercuryAge);
-      return yearsRemain;
+      return `You have ${yearsRemain} Mercury years remaining`;
     } else if (this.mercuryAge > lifeExpect)  {
       let yearsRemain = (this.mercuryAge - lifeExpect);
       return yearsRemain;
@@ -46,16 +46,16 @@ export class UserAge {
     }
   }
   venusYearsRemain() {
-    const lifeExpect = 333;
+    const lifeExpect = 129;
 
-    if (this.mercuryAge < lifeExpect) {
-      let yearsRemain = (lifeExpect - this.mercuryAge);
+    if (this.venusAge < lifeExpect) {
+      let yearsRemain = (lifeExpect - this.venusAge);
       return yearsRemain;
-    } else if (this.mercuryAge > lifeExpect) {
-      let yearsRemain = (this.mercuryAge - lifeExpect);
+    } else if (this.venusAge > lifeExpect) {
+      let yearsRemain = (this.venusAge - lifeExpect);
       return yearsRemain;
     } else {
-      return "You're at life expectancy on Mercury";
+      return "You're at life expectancy on Venus";
     }
   }
 }

@@ -28,7 +28,7 @@ describe  ('UserAge', () => {
   });
 });
 
-describe  ('UserAge', () => {
+describe  ('UserAge', () => {     //Earth life expetancy test
   test ('should subtract given age from projected life expectancy in Earth years and give remaining earth years.', () => {
     let samplePerson = new UserAge(33);
     expect(samplePerson.earthYearsRemain()).toEqual('You have 47 Earth years remaining');
@@ -38,17 +38,17 @@ describe  ('UserAge', () => {
     samplePerson.age;
     expect(samplePerson.earthYearsRemain()).toEqual('You have exceeded by 5 Earth years');
   });
-  test ("should calculate if you're at life expectancy on Earth.", () => {   // Start here after lunch, need to create my method 
+  test ("should calculate if you're at life expectancy on Earth.", () => {
     let samplePerson = new UserAge(80);
     expect(samplePerson.earthYearsRemain()).toEqual('You are right at the life expectancy on Earth');
   });
 });
 
-describe ('UserAge', () =>  {
-  let samplePerson = new UserAge(33);
+describe ('UserAge', () =>  {     //Mercury life expectancy tests
   test ('should calculate the years remaining on Mercury', ()  =>  {
+    let samplePerson = new UserAge(33);
     samplePerson.mercuryYears(); 
-    expect(samplePerson.mercuryYearsRemain()).toEqual(196);
+    expect(samplePerson.mercuryYearsRemain()).toEqual('You have 196 Mercury years remaining');
   });
   test ('should calculate the years over life expectancy on Mercury', () => {
     let samplePerson = new UserAge(85);
@@ -59,5 +59,11 @@ describe ('UserAge', () =>  {
     let samplePerson = new UserAge(80);
     samplePerson.mercuryYears();
     expect(samplePerson.mercuryYearsRemain()).toEqual("You're at life expectancy on Mercury");
+  });
+
+  describe  ('UserAge', () => {     //Venus life expectancy tests
+    let samplePerson = new UserAge(33);
+    samplePerson.venusYears();
+    expect(samplePerson.venusYearsRemain()).toEqual();
   });
 });
