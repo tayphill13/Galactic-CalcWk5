@@ -34,7 +34,7 @@ _This calculator can receive an age provided by the user and convert to an estim
 | Converted Mars age will be subtracted from the life expectancy--If you have exceeded the life expectancy, it will tell you by home many years on that planet you've exceeded  |  85 |  You've exceeded by 2 Mars years  |
 | If the converted Mars Age is equal to the life expectancy then it will return a message informing you of this |  80 |  You are at the life expectancy on Mars |
 |   |     |     |
-|
+| Age will be converted to Jupiter age and then compared to life expectancy-- if it's less than it will tell you how many years you have remaining in Jupiter length years  | 33  |   |
 |
 |
 

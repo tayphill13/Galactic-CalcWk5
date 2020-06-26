@@ -72,4 +72,13 @@ export class UserAge {
       return "You're at life expectancy on Mars"; 
     }
   }
+
+  jupiterYearsRemain()  {
+    const lifeExpect = 6;
+
+    if (this.jupiterAge < lifeExpect) {
+      let yearsRemain = (lifeExpect - this.jupiterAge);
+      return `You have ${yearsRemain} Jupiter years remaining`;
+    }
+  }
 }
