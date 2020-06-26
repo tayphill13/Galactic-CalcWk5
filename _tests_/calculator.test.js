@@ -55,4 +55,9 @@ describe ('UserAge', () =>  {
     samplePerson.mercuryYears();
     expect(samplePerson.mercuryYearsRemain()).toEqual(21);
   });
+  test ('should calculate whether you are at life expectancy on Mercury', () => {
+    let samplePerson = new UserAge(80);
+    samplePerson.mercuryYears();
+    expect(samplePerson.mercuryYearsRemain()).toEqual("You're at life expectancy on Mercury");
+  });
 });
