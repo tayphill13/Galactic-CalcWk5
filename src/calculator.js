@@ -12,6 +12,10 @@ export class UserAge {
   }
 
   marsYears() {
-    this.marsAge = Math.floor(this.age / 1.88);
+    this.marsAge = Math.floor(this.age/1.88);
+  }
+
+  jupiterYears()  {
+    this.jupiterAge = Math.floor(this.age/11.86);
   }
 }

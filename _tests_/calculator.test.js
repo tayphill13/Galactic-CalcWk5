@@ -21,4 +21,9 @@ describe  ('UserAge', () => {
     samplePerson.marsYears();
     expect(samplePerson.marsAge).toEqual(17);
   });
+
+  test ('should test that the user age will be converted using jupiter solar year length.', () => {
+    samplePerson.jupiterYears();
+    expect(samplePerson.jupiterAge).toEqual(2);
+  });
 });

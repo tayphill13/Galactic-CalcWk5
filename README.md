@@ -15,7 +15,7 @@ _This calculator can receive an age provided by the user and convert to an estim
 | Method will receive an age and return the age in Mercury years  | 33  | 137 on Mercury |
 | Method will receive an age and return the age in Venus years  | 33  | 53 on Venus |
 | Method will receive an age and return the age in Mars years  | 33  | 17 on Mars |
-| Method will recieve an age and return the age in Jupiter years  | 33  | 2 (going on 3) on Jupiter  |
+| Method will recieve an age and return the age in Jupiter years  | 33  | 2 on Jupiter  |
 
 
 ## Setup/Installation Requirements
