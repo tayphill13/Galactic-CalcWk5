@@ -76,6 +76,6 @@ describe  ('UserAge', () => {
   test ("Should calculate whether you've reached life expectancy on Venus", () => {
     let samplePerson = new UserAge(80);
     samplePerson.venusYearsRemain();
-    expect(samplePerson.venusYearsRemain()).toEqual();
+    expect(samplePerson.venusYearsRemain()).toEqual("You're at life expectancy on Venus");
   });
 });
