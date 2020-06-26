@@ -24,10 +24,10 @@ export class UserAge {
 
     if (this.age < this.lifeExpectancy) {
       let yearsRemain = (this.lifeExpectancy - this.age);
-      return yearsRemain;
+      return `You have ${yearsRemain} Earth years remaining`;
     } else if (this.age > this.lifeExpectancy)  {
       let yearsRemain = (this.age - this.lifeExpectancy);
-      return yearsRemain;
+      return `You have exceeded by ${yearsRemain} Earth years`;
     }
   }
 }

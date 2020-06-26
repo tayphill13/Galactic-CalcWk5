@@ -17,6 +17,9 @@ _This calculator can receive an age provided by the user and convert to an estim
 | Method will receive an age and return the age in Mars years  | 33  | 17 on Mars |
 | Method will recieve an age and return the age in Jupiter years  | 33  | 2 on Jupiter  |
 
+| Method will receive an age and compare to life expectancy so that if you have not reached life expectancy, result will be how many more years you are expected to live on Earth | 33  | You have 47 more Earth years remaining  |
+| Method will receive an age and compare to life expectancy so that if you exceeded life expectancy, result will be how many years you have exceeded in Earth Years | 85  | You have exceeded by 5 years  |
+
 
 ## Setup/Installation Requirements
 
