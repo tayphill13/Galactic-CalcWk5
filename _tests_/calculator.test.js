@@ -7,8 +7,13 @@ describe  ('UserAge', () => {
     expect(samplePerson.age).toEqual(33);
   });
 
-  test ('should test that the user age will be converted using mercury solar years.', () => {
-    samplePerson.venusCalculation();
+  test ('should test that the user age will be converted using venus solar years.', () => {
+    samplePerson.venusYears();
     expect(samplePerson.venusAge).toEqual(53);
+  });
+
+  test ('should test that the user age will be converted using mercury solar years.', () => {
+    samplePerson.mercuryYears();
+    expect(samplePerson.venusAge).toEqual(33);
   });
 });

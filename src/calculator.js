@@ -3,7 +3,11 @@ export class UserAge {
     this.age = age;
   }
 
-  venusCalculation()  {
+  venusYears()  {
     this.venusAge = Math.floor(this.age/.62);
+  }
+
+  mercuryYears()  {
+    this.mercuryAge = Math.floor(this.age/.24);
   }
 }
