@@ -73,4 +73,9 @@ describe  ('UserAge', () => {
     samplePerson.venusYears();
     expect(samplePerson.venusYearsRemain()).toEqual("You've exceeded by 8 Venus years");
   });
+  test ("Should calculate whether you've reached life expectancy on Venus", () => {
+    let samplePerson = new UserAge(80);
+    samplePerson.venusYearsRemain();
+    expect(samplePerson.venusYearsRemain()).toEqual();
+  });
 });
