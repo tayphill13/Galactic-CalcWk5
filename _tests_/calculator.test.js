@@ -84,6 +84,6 @@ describe ('UserAge', () =>  {
   test('should calculate the years remaining with regard to life expectancy on Mars', ()  =>  {
     let samplePerson = new UserAge(33);
     samplePerson.marsYears();
-    expect(samplePerson.marsYearsRemain()).toEqual();
+    expect(samplePerson.marsYearsRemain()).toEqual("You have 25 Mars years remaining");
   });
 });
