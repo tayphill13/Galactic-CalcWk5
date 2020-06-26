@@ -69,7 +69,7 @@ export class UserAge {
       let yearsRemain = (this.marsAge - lifeExpect);
       return `You've exceeded by ${yearsRemain} Mars years`;
     } else {
-      return "You're"; 
+      return "You're at life expectancy on Mars"; 
     }
   }
 }
