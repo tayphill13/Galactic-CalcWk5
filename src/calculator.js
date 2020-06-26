@@ -53,7 +53,7 @@ export class UserAge {
       return `You have ${yearsRemain} Venus years remaining`;
     } else if (this.venusAge > lifeExpect) {
       let yearsRemain = (this.venusAge - lifeExpect);
-      return yearsRemain;
+      return `You've exceeded by ${yearsRemain} Venus years`;
     // } else {
     //   return "You're at life expectancy on Venus";
     }
