@@ -63,8 +63,11 @@ export class UserAge {
     const lifeExpect = 42;
 
     if (this.marsAge < lifeExpect)  {
-      let yearsRemain = (lifeExpect-this.marsAge);
+      let yearsRemain = (lifeExpect - this.marsAge);
       return `You have ${yearsRemain} Mars years remaining`;
+    } else if (this.marsAge > lifeExpect) {
+      let yearsRemain = (this.marsAge - lifeExpect);
+      return `You've exceeded by ${yearsRemain} Mars years`;
     }
   }
 }
