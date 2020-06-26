@@ -104,4 +104,9 @@ describe ('UserAge', () =>  {
     samplePerson.jupiterYears();
     expect(samplePerson.jupiterYearsRemain()).toEqual("You have 4 Jupiter years remaining");
   });
+  test('should calculate the years over life expectancy on Jupiter', () =>  {
+    let samplePerson = new UserAge(85);
+    samplePerson.jupiterYears();
+    expect(samplePerson.jupiterYearsRemain()).toEqual("You've");
+  });
 });
