@@ -14,6 +14,6 @@ describe  ('UserAge', () => {
 
   test ('should test that the user age will be converted using mercury solar years.', () => {
     samplePerson.mercuryYears();
-    expect(samplePerson.mercuryAge).toEqual(33);
+    expect(samplePerson.mercuryAge).toEqual(137);
   });
 });
