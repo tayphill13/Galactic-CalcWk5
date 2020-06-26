@@ -21,7 +21,13 @@ export class UserAge {
   }
 
   earthYearsRemain()  {
-    let yearsRemain = (this.lifeExpectancy - this.age);
-    return `You have ${yearsRemain} Earth years remaining`;
+
+    if (this.age < this.lifeExpectancy) {
+      let yearsRemain = (this.lifeExpectancy - this.age);
+      return `You have ${yearsRemain} Earth years remaining`;
+    } else if (this.age > this.lifeExpectancy)  {
+      let yearsRemain = (this.age - this.lifeExpectancy);
+      return `What's your secret? You are ${yearsRemain} years past life expectancy on this planet!`;
+    }
   }
 }
