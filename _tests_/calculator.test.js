@@ -1,7 +1,7 @@
 import { UserAge } from './../src/calculator.js';
 
 describe  ('UserAge', () => {
-  let samplePerson = new UserAge(85);
+  let samplePerson = new UserAge(33);
 
   test ('should test that the user age being received is returned in earth years.', () => {
     expect(samplePerson.age).toEqual(33);
@@ -26,12 +26,16 @@ describe  ('UserAge', () => {
     samplePerson.jupiterYears();
     expect(samplePerson.jupiterAge).toEqual(2);
   });
+});
 
-  test ('should subtract given age from projected life expectancy in Earth years.', () => {
-    expect(samplePerson.earthYearsRemain()).toEqual(`You have 47 Earth years remaining`);
-  });
+describe  ('UserAge', () => {
+  let samplePerson = new UserAge(85);
+
+  // test ('should subtract given age from projected life expectancy in Earth years.', () => {
+  //   expect(samplePerson.earthYearsRemain()).toEqual(47);
+  // });
 
   test('should calculate how many years passed life expectancy on Earth', () => {
-    expect(samplePerson.age).toEqual();
+    expect(samplePerson.earthYearsRemain()).toEqual(5);
   });
 });
