@@ -33,7 +33,10 @@ export class UserAge {
   }
 
   mercuryYearsRemain()  {
-    const lifeExpect = Math.floor(80/.24);  // 333 Mercury Years
-    
+    const lifeExpect = 333;
+    if ( this.mercuryAge < lifeExpect)  {
+      let yearsRemain = (lifeExpect - this.mercuryAge);
+      return yearsRemain;
+    }
   }
 }
