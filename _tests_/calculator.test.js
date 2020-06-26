@@ -53,7 +53,7 @@ describe ('UserAge', () =>  {     //Mercury life expectancy tests
   test ('should calculate the years over life expectancy on Mercury', () => {
     let samplePerson = new UserAge(85);
     samplePerson.mercuryYears();
-    expect(samplePerson.mercuryYearsRemain()).toEqual(21);
+    expect(samplePerson.mercuryYearsRemain()).toEqual("You've exceeded by 21 Mercury years");
   });
   test ('should calculate whether you are at life expectancy on Mercury', () => {
     let samplePerson = new UserAge(80);
