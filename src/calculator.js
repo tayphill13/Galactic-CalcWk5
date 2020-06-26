@@ -45,4 +45,17 @@ export class UserAge {
       return "You're at life expectancy on Mercury";
     }
   }
+  venusYearsRemain() {
+    const lifeExpect = 333;
+
+    if (this.mercuryAge < lifeExpect) {
+      let yearsRemain = (lifeExpect - this.mercuryAge);
+      return yearsRemain;
+    } else if (this.mercuryAge > lifeExpect) {
+      let yearsRemain = (this.mercuryAge - lifeExpect);
+      return yearsRemain;
+    } else {
+      return "You're at life expectancy on Mercury";
+    }
+  }
 }
