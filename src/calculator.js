@@ -38,6 +38,9 @@ export class UserAge {
     if (this.mercuryAge < lifeExpect)  {
       let yearsRemain = (lifeExpect - this.mercuryAge);
       return yearsRemain;
+    } else if (this.mercuryAge > lifeExpect)  {
+      let yearsRemain = (this.mercuryAge - lifeExpect);
+      return yearsRemain;
     }
   }
 }
