@@ -6,7 +6,7 @@
 
 ## Description
 
-_This calculator can receive an age provided by the user and convert to an estimated age if you lived on another planet, with respect to that planet's solar years._ . For instance, Earth has a solar year consisting of 365 days, and Mercury only has a solar year consisting of 88 days.
+_This calculator can receive an age provided by the user and convert to an estimated age if you lived on another planet, with respect to that planet's solar years.  For instance, Earth has a solar year consisting of 365 days, and Mercury only has a solar year consisting of 88 days, therefore you would be much older if you had been living with respect to Mercury solar years._
 
 ### Specs
 | Spec | Input | Output |
