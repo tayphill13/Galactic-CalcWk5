@@ -33,6 +33,7 @@ export class UserAge {
   }
 
   mercuryYearsRemain()  {
-    const lifeExpect = (80/.24);
+    const lifeExpect = Math.floor(80/.24);  // 333 Mercury Years
+    
   }
 }
