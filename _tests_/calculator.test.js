@@ -62,7 +62,7 @@ describe ('UserAge', () =>  {     //Mercury life expectancy tests
   });
 });
 
-describe  ('UserAge', () => { 
+describe  ('UserAge', () => {     //Venus Life expectancy tests
   test ('should calculate the years remaining with regard to life expectancy on Venus', () => {
     let samplePerson = new UserAge(33);
     samplePerson.venusYears();
@@ -75,7 +75,15 @@ describe  ('UserAge', () => {
   });
   test ("Should calculate whether you've reached life expectancy on Venus", () => {
     let samplePerson = new UserAge(80);
-    samplePerson.venusYearsRemain();
+    samplePerson.venusYears();
     expect(samplePerson.venusYearsRemain()).toEqual("You're at life expectancy on Venus");
+  });
+});
+
+describe ('UserAge', () =>  {
+  test('should calculate the years remaining with regard to life expectancy on Mars', ()  =>  {
+    let samplePerson = new UserAge(33);
+    samplePerson.marsYears();
+    expect(samplePerson.marsYearsRemain()).toEqual();
   });
 });

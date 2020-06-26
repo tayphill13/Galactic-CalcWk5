@@ -58,4 +58,13 @@ export class UserAge {
       return "You're at life expectancy on Venus";
     }
   }
+
+  marsYearsRemain() {
+    const lifeExpect = 42;
+
+    if (this.marsAge < lifeExpect)  {
+      let yearsRemain = (lifeExpect-this.marsAge);
+      return `You have ${yearsRemain} Mars years remaining`;
+    }
+  }
 }
