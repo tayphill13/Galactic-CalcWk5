@@ -16,4 +16,9 @@ describe  ('UserAge', () => {
     samplePerson.mercuryYears();
     expect(samplePerson.mercuryAge).toEqual(137);
   });
+
+  test ('should test that the user age will be converted using the mars solar years.', () =>  {
+    samplePerson.marsYears();
+    expect(samplePerson.marsAge).toEqual(17);
+  });
 });

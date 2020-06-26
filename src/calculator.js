@@ -10,4 +10,8 @@ export class UserAge {
   mercuryYears()  {
     this.mercuryAge = Math.floor(this.age/.24);
   }
+
+  marsYears() {
+  
+  }
 }
