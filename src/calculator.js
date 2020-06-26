@@ -42,7 +42,7 @@ export class UserAge {
       let yearsRemain = (this.mercuryAge - lifeExpect);
       return yearsRemain;
     } else {
-      return 'At life expectancy';
+      return "You're at life expectancy on Mercury";
     }
   }
 }
