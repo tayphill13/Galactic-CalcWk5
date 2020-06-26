@@ -107,6 +107,6 @@ describe ('UserAge', () =>  {
   test('should calculate the years over life expectancy on Jupiter', () =>  {
     let samplePerson = new UserAge(85);
     samplePerson.jupiterYears();
-    expect(samplePerson.jupiterYearsRemain()).toEqual("You've");
+    expect(samplePerson.jupiterYearsRemain()).toEqual("You've exceeded by 1 Jupiter year");
   });
 });
