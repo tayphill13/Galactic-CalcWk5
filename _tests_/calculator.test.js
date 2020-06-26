@@ -97,3 +97,11 @@ describe ('UserAge', () =>  {
     expect(samplePerson.marsYearsRemain()).toEqual("You're at life expectancy on Mars");
   });
 });
+
+describe ('UserAge', () =>  {
+  test('should calculate the years remaining with regard to life expectancy on Jupiter', () =>  {
+    let samplePerson = new UserAge(33);
+    samplePerson.jupiterYears();
+    expect(samplePerson.jupiterYearsRemain()).toEqual();
+  });
+});
