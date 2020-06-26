@@ -12,6 +12,6 @@ export class UserAge {
   }
 
   marsYears() {
-  
+    this.marsAge = Math.floor(this.age / 1.88);
   }
 }
