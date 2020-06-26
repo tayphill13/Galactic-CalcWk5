@@ -18,8 +18,24 @@ _This calculator can receive an age provided by the user and convert to an estim
 | Method will recieve an age and return the age in Jupiter years  | 33  | 2 on Jupiter  |
 
 | Method will receive an age and compare to life expectancy so that if you have not reached life expectancy, result will be how many more years you are expected to live on Earth | 33  | You have 47 more Earth years remaining  |
-| Method will receive an age and compare to life expectancy so that if you exceeded life expectancy, result will be how many years you have exceeded in Earth Years | 85  | You have exceeded by 5 years  |
+| Method will receive an age and compare to life expectancy so that if inputted age exceeds life expectancy, result will be how many years you have exceeded in Earth Years | 85  | You have exceeded by 5 Earth years  |
+| Method will take user age and if it is equal to life expectancy then it will tell you that | 80 | "You are at life expectancy on Earth" |
 
+| User inputted age (in Mercury Solar years) will be subtracted from life expectancy and remaining years in Mercury Solar time will be returned  | 100  | 37 Mercury years remaining  |
+| User inputted age will be converted to mercury solar years and if you have exceeded life expectancy on that planet it will tell you by how many mercury solar years |  150  | You've exceeded by 13 Mercury years |
+| If you User inputted age is at life expectancy, the output will reflect that  | 137 | "You're at life expectancy" |
+
+|
+|
+|
+
+|
+|
+|
+
+|
+|
+|
 
 ## Setup/Installation Requirements
 

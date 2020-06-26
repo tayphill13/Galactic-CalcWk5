@@ -21,7 +21,6 @@ export class UserAge {
   }
 
   earthYearsRemain()  {
-
     if (this.age < this.lifeExpectancy) {
       let yearsRemain = (this.lifeExpectancy - this.age);
       return `You have ${yearsRemain} Earth years remaining`;
@@ -31,5 +30,9 @@ export class UserAge {
     } else {
       return "You are right at the life expectancy on Earth";
     }
+  }
+
+  mercuryYearsRemain()  {
+    
   }
 }
