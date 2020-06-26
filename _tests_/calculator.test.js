@@ -28,6 +28,6 @@ describe  ('UserAge', () => {
   });
 
   test ('should subtract given age from projected life expectancy in Earth years.', () => {
-    expect(samplePerson.earthYearsRemain()).toEqual(47);
+    expect(samplePerson.earthYearsRemain()).toEqual(`You have 47 Earth years remaining`);
   });
 });
