@@ -26,7 +26,6 @@ describe  ('UserAge', () => {
     samplePerson.jupiterYears();
     expect(samplePerson.jupiterAge).toEqual(2);
   });
-
 });
 
 describe  ('UserAge', () => {
@@ -42,5 +41,12 @@ describe  ('UserAge', () => {
   test("should calculate if you're at life expectancy on Earth.", () => {   // Start here after lunch, need to create my method 
     let samplePerson = new UserAge(80);
     expect(samplePerson.earthYearsRemain()).toEqual('You are right at the life expectancy on Earth');
+  });
+});
+
+describe ('UserAge', () =>  {
+  test ('should calculate the difference between life expectancy on Mercury and the inputted age, therefore providing remaining life expectancy on Mercury.', ()  =>  {
+    let samplePerson = new UserAge(37);
+    expect(samplePerson.mercuryYearsRemain()).toEqual();
   });
 });
