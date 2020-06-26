@@ -1,12 +1,12 @@
-# _PROJECT NAME_
+# _Galactic Age Calculator_
 
-#### _SHORT DESCR_
+#### _This application can tell your relative age on other planets in our galaxy, 6.26.2020_
 
-#### By _**YOUR NAME HERE**_
+#### By _**Taylor Phillips**_
 
 ## Description
 
-_Long deiscription._
+_This calculator can receive an age provided by the user and convert to an estimated age if you lived on another planet, with respect to that planet's solar years._ . For instance, Earth has a solar year consisting of 365 days, and Mercury only has a solar year consisting of 88 days.
 
 ### Specs
 | Spec | Input | Output |
@@ -20,6 +20,10 @@ _Long deiscription._
 * _go to this repository and clone then Open in Desktop_
 * _Will likely need Git for Desktop which can be found here: https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop_
 * _Clone file to desktop from repo on github_
+* _You will need to have npm installed on your computer_
+* _Using your command line terminal, enter 'cd Desktop'.
+* _Then in command terminal type cd Galactic-CalcWk5 or name of parent folder_
+* _Use npm install in command line and allow computer to install webpacks_  
 * _run index.html with web browser_
 * _Other option is to go to Repository on git hub and download zip_
 * _Retrieve zip file in downloads on computer and double click to unpack_
@@ -28,10 +32,11 @@ _Long deiscription._
 
 ## Known Bugs
 
-_ _
+No known bugs at this time
+
 ## Support and contact details
 
-_Contact me at...._
+_Contact me via my github!  https://github.com/tayphill13_
 
 ## Technologies Used
 
@@ -46,4 +51,4 @@ _VSCode_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2020 **_Your name(s)_**
+Copyright (c) 2020 **_Taylor Phillips_**
