@@ -1,6 +1,7 @@
 export class UserAge {
   constructor(age)  {
     this.age = age;
+    this.lifeExpectancy = 80;
   }
 
   venusYears()  {
@@ -17,5 +18,9 @@ export class UserAge {
 
   jupiterYears()  {
     this.jupiterAge = Math.floor(this.age/11.86);
+  }
+
+  earthYearsRemain()  {
+    
   }
 }

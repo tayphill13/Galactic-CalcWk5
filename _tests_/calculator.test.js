@@ -26,4 +26,8 @@ describe  ('UserAge', () => {
     samplePerson.jupiterYears();
     expect(samplePerson.jupiterAge).toEqual(2);
   });
+
+  test ('should subtract given age from projected life expectancy in Earth years.', () => {
+    expect(samplePerson.earthYearsRemain()).toEqual(47);
+  });
 });
