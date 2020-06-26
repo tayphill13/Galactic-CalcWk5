@@ -6,7 +6,7 @@
 
 ## Description
 
-_This calculator can receive an age provided by the user and convert to an estimated age if you lived on another planet, with respect to that planet's solar years.  For instance, Earth has a solar year consisting of 365 days, and Mercury only has a solar year consisting of 88 days, therefore you would be much older if you had been living with respect to Mercury solar years._
+_This calculator can receive an age provided by the user and convert to an estimated age if you lived on another planet, with respect to that planet's solar years.  For instance, Earth has a solar year consisting of 365 days, and Mercury only has a solar year consisting of 88 days, therefore you would be much older if you had been living with respect to Mercury solar years.  The application will also be able to tell you how many years you have remaining for a life expectancy of 80 earth years.  The application will also inform you of how many years you've exceeded the life expectancy and whether you are currently at the life expectancy for a given planet.  This project was to practice formulating TDD specs and running tests using Jest._
 
 
 ### Technical Specs
@@ -34,9 +34,10 @@ _This calculator can receive an age provided by the user and convert to an estim
 | Converted Mars age will be subtracted from the life expectancy--If you have exceeded the life expectancy, it will tell you by home many years on that planet you've exceeded  |  85 |  You've exceeded by 2 Mars years  |
 | If the converted Mars Age is equal to the life expectancy then it will return a message informing you of this |  80 |  You are at the life expectancy on Mars |
 |   |     |     |
-| Age will be converted to Jupiter age and then compared to life expectancy-- if it's less than it will tell you how many years you have remaining in Jupiter length years  | 33  |   |
-|
-|
+| Age will be converted to Jupiter age and then compared to life expectancy-- if it's less than it will tell you how many years you have remaining in Jupiter length years  | 33  | You have 4 Jupiter years remaining  |
+| Converted Jupiter age, if exceeding life expectancy for Jupiter, will return how many years age is exceeding by | 85  | Exceeding by 1 year |
+| If Jupiter age is at life expectancy then it will tell you so | 80  | You are at life expectancy for Jupiter  |
+
 
 ## Setup/Installation Requirements
 
@@ -65,12 +66,12 @@ _Contact me via my github!  https://github.com/tayphill13_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_JavaScript_
-_JQuery_
-_VSCode_
+* _JavaScript_
+* _JQuery_
+* _VSCode_
+* _Webpack_
+* _Jest_
+* _Babel_
 
 ### License
 
