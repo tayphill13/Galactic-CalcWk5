@@ -82,6 +82,8 @@ export class UserAge {
     } else if (this.jupiterAge > lifeExpect)  {
       let yearsRemain = (this.jupiterAge - lifeExpect);
       return `You've exceeded by ${yearsRemain} Jupiter year`;
+    } else{
+      return "You're at life expectancy on Jupiter";
     }
   }
 }

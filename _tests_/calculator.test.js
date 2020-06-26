@@ -28,7 +28,7 @@ describe  ('UserAge', () => {
   });
 });
 
-describe  ('UserAge', () => {     //Earth life expetancy test
+describe  ('UserAge', () => {  
   test ('should subtract given age from projected life expectancy in Earth years and give remaining earth years.', () => {
     let samplePerson = new UserAge(33);
     expect(samplePerson.earthYearsRemain()).toEqual('You have 47 Earth years remaining');
@@ -44,7 +44,7 @@ describe  ('UserAge', () => {     //Earth life expetancy test
   });
 });
 
-describe ('UserAge', () =>  {     //Mercury life expectancy tests
+describe ('UserAge', () =>  {  
   test ('should calculate the years remaining on Mercury', ()  =>  {
     let samplePerson = new UserAge(33);
     samplePerson.mercuryYears(); 
@@ -62,7 +62,7 @@ describe ('UserAge', () =>  {     //Mercury life expectancy tests
   });
 });
 
-describe  ('UserAge', () => {     //Venus Life expectancy tests
+describe  ('UserAge', () => {   
   test ('should calculate the years remaining with regard to life expectancy on Venus', () => {
     let samplePerson = new UserAge(33);
     samplePerson.venusYears();
@@ -108,5 +108,10 @@ describe ('UserAge', () =>  {
     let samplePerson = new UserAge(85);
     samplePerson.jupiterYears();
     expect(samplePerson.jupiterYearsRemain()).toEqual("You've exceeded by 1 Jupiter year");
+  });
+  test ('should calculate whether age is at life expectancy on Jupiter', () =>  {
+    let samplePerson = new UserAge(80);
+    samplePerson.jupiterYears();
+    expect(samplePerson.jupiterYearsRemain()).toEqual("You're at life expectancy on Jupiter");
   });
 });
