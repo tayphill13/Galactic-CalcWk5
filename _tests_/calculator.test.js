@@ -45,9 +45,9 @@ describe  ('UserAge', () => {
 });
 
 describe ('UserAge', () =>  {
-  
+  let samplePerson = new UserAge(33);
   test ('should calculate the years remaining on Mercury', ()  =>  {
-    let samplePerson = new UserAge(137); 
-    expect(196).toEqual(196);
+    samplePerson.mercuryYears(); 
+    expect(samplePerson.mercuryYearsRemain()).toEqual(196);
   });
 });
