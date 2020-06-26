@@ -28,6 +28,8 @@ export class UserAge {
     } else if (this.age > this.lifeExpectancy)  {
       let yearsRemain = (this.age - this.lifeExpectancy);
       return `You have exceeded by ${yearsRemain} Earth years`;
+    } else {
+      return "You are right at the life expectancy on Earth";
     }
   }
 }

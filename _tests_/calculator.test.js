@@ -41,6 +41,6 @@ describe  ('UserAge', () => {
   });
   test("should calculate if you're at life expectancy on Earth.", () => {   // Start here after lunch, need to create my method 
     let samplePerson = new UserAge(80);
-    expect(samplePerson.earthYearsRemain()).toEqual(0);
+    expect(samplePerson.earthYearsRemain()).toEqual('You are right at the life expectancy on Earth');
   });
 });
