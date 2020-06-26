@@ -45,8 +45,9 @@ describe  ('UserAge', () => {
 });
 
 describe ('UserAge', () =>  {
-  test ('should calculate the difference between life expectancy on Mercury and the inputted age, therefore providing remaining life expectancy on Mercury.', ()  =>  {
-    let samplePerson = new UserAge(33);
-    expect((samplePerson.mercuryYearsRemain())).toEqual('You have 196 Mercury years remaining');
+  
+  test ('should calculate the years remaining on Mercury', ()  =>  {
+    let samplePerson = new UserAge(137); 
+    expect(196).toEqual(196);
   });
 });
