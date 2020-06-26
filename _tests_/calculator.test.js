@@ -6,4 +6,8 @@ describe  ('UserAge', () => {
   test ('should test that the user age being received is returned in earth years.', () => {
     expect(samplePerson.age).toEqual(33);
   });
+
+  test ('should test that the user age will be converted using mercury solar years.', () => {
+    expect(samplePerson.venusAge).toEqual(137);
+  });
 });
