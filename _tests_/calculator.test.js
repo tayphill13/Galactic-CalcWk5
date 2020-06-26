@@ -30,17 +30,17 @@ describe  ('UserAge', () => {
 });
 
 describe  ('UserAge', () => {
-  let samplePerson = new UserAge(33);
   test ('should subtract given age from projected life expectancy in Earth years and give remaining earth years.', () => {
-    expect(samplePerson.earthYearsRemain()).toEqual(47);
+    let samplePerson = new UserAge(33);
+    expect(samplePerson.earthYearsRemain()).toEqual('You have 47 Earth years remaining');
   });
-  let samplePerson = new UserAge(85);
   test('should calculate how many years passed life expectancy on Earth.', () => {
+    let samplePerson = new UserAge(85);
     samplePerson.age;
-    expect(samplePerson.earthYearsRemain()).toEqual(5);
+    expect(samplePerson.earthYearsRemain()).toEqual('You have exceeded by 5 Earth years');
   });
-  let samplePerson = new UserAge(80);
   test("should calculate if you're at life expectancy on Earth.", () => {   // Start here after lunch, need to create my method 
+    let samplePerson = new UserAge(80);
     expect(samplePerson.earthYearsRemain()).toEqual(0);
   });
 });
